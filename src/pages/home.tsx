@@ -14,7 +14,7 @@ const Home = () => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    const fetchTodos = async () => {
+    const fetchCertificates = async () => {
       try {
         setError(false);
         const response = await axios.get(
@@ -27,7 +27,7 @@ const Home = () => {
       }
     };
 
-    fetchTodos();
+    fetchCertificates();
   }, []);
 
   return (
