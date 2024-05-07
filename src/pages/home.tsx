@@ -74,7 +74,7 @@ const Home = () => {
           ) : (
             <div className="flex flex-col items-center justify-center my-20 gap-5">
               <h1 className="text-4xl font-semibold text-center">
-                Oops! No certificates found
+                No certificates yet, create one
               </h1>
               <a href="/create-certificates">
                 <Button>Create a new Certificate</Button>
